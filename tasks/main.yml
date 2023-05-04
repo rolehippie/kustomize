@@ -1,0 +1,43 @@
+# Standards: 1.2
+---
+- name: Download kustomize release
+  unarchive:
+    src: "{{ kustomize_core_download }}"
+    dest: "{{ kustomize_install_path }}"
+    include:
+      - kustomize
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kustomize
+
+- name: Download ksops release
+  when:
+    - kustomize_ksops_enabled
+  unarchive:
+    src: "{{ kustomize_ksops_download }}"
+    dest: "{{ kustomize_install_path }}"
+    include:
+      - ksops
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kustomize
+
+- name: Download khelm release
+  when:
+    - kustomize_khelm_enabled
+  get_url:
+    url: "{{ kustomize_khelm_download }}"
+    dest: "{{ kustomize_install_path }}/khelm"
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kustomize
+
+...

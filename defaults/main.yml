@@ -1,0 +1,42 @@
+# Standards: 1.2
+---
+# @var kustomize_core_version:description: Version of kustomize to install
+# renovate: datasource=github-releases depName=kubernetes-sigs/kustomize
+kustomize_core_version: 5.0.1
+
+# @var kustomize_core_arch:description: Architecture for kustomize
+kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kustomize_core_download:description: URL to download kustomize from
+kustomize_core_download: "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{ kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ kustomize_core_arch }}.tar.gz"
+
+# @var kustomize_ksops_enabled:description: Enable installation of ksops
+kustomize_ksops_enabled: True
+
+# @var kustomize_ksops_version:description: Version of ksops to install
+# renovate: datasource=github-releases depName=viaduct-ai/kustomize-sops
+kustomize_ksops_version: 4.1.1
+
+# @var kustomize_ksops_arch:description: Architecture for ksops
+kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
+
+# @var kustomize_ksops_download:description: URL to download ksops from
+kustomize_ksops_download: "https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{ kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ kustomize_ksops_arch }}.tar.gz"
+
+# @var kustomize_khelm_enabled:description: Enable installation of khelm
+kustomize_khelm_enabled: True
+
+# @var kustomize_khelm_version:description: Version of khelm to install
+# renovate: datasource=github-releases depName=mgoltzsche/khelm
+kustomize_khelm_version: 2.3.0
+
+# @var kustomize_khelm_arch:description: Architecture for khelm
+kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kustomize_khelm_download:description: URL to download khelm from
+kustomize_khelm_download: "https://github.com/mgoltzsche/khelm/releases/download/v{{ kustomize_khelm_version }}/khelm-linux-{{ kustomize_khelm_arch }}"
+
+# @var kustomize_install_path:description: Path to install the binaries
+kustomize_install_path: /usr/bin
+
+...
