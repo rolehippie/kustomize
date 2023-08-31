@@ -1,6 +1,6 @@
 # kustomize
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/kustomize)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/kustomize)
 [![General Workflow](https://github.com/rolehippie/kustomize/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/kustomize/actions/workflows/general.yml)
 [![Readme Workflow](https://github.com/rolehippie/kustomize/actions/workflows/docs.yml/badge.svg)](https://github.com/rolehippie/kustomize/actions/workflows/docs.yml)
 [![Galaxy Workflow](https://github.com/rolehippie/kustomize/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/kustomize/actions/workflows/galaxy.yml)
@@ -40,7 +40,6 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 - Minimum Ansible version: `2.10`
 
-
 ## Default Variables
 
 ### kustomize_core_arch
@@ -50,8 +49,8 @@ Architecture for kustomize
 #### Default value
 
 ```YAML
-kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kustomize_core_download
@@ -93,8 +92,8 @@ Architecture for khelm
 #### Default value
 
 ```YAML
-kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kustomize_khelm_download
@@ -135,8 +134,8 @@ Architecture for ksops
 #### Default value
 
 ```YAML
-kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64'\
-  \ }}"
+kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64'
+  }}"
 ```
 
 ### kustomize_ksops_download
