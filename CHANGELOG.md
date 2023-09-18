@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/rolehippie/kustomize/compare/v1.2.0...v1.2.1) (2023-09-18)
+
+
+### Bugfixes
+
+* **deps:** update dependency mgoltzsche/khelm to v2.3.1 ([ef6f5c3](https://github.com/rolehippie/kustomize/commit/ef6f5c39141bc2a6eadfbb9a9d95810b58212de9))
+
 ## [1.2.0](https://github.com/rolehippie/kustomize/compare/v1.1.1...v1.2.0) (2023-08-07)
 
 
