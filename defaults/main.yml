@@ -15,7 +15,7 @@ kustomize_ksops_enabled: True
 
 # @var kustomize_ksops_version:description: Version of ksops to install
 # renovate: datasource=github-releases depName=viaduct-ai/kustomize-sops
-kustomize_ksops_version: 4.2.3
+kustomize_ksops_version: 4.2.4
 
 # @var kustomize_ksops_arch:description: Architecture for ksops
 kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
