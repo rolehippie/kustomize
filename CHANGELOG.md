@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/rolehippie/kustomize/compare/v1.2.4...v1.3.0) (2023-10-23)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/kustomize to v5.2.1 ([f2adf42](https://github.com/rolehippie/kustomize/commit/f2adf42a31a5621df0c7cbe0bc2c93b4163b1a22))
+
+
+### Bugfixes
+
+* **deps:** update dependency viaduct-ai/kustomize-sops to v4.2.5 ([270246f](https://github.com/rolehippie/kustomize/commit/270246ff2974e35b1c02edf8158f3bad02277591))
+
 ## [1.2.4](https://github.com/rolehippie/kustomize/compare/v1.2.3...v1.2.4) (2023-10-16)
 
 
