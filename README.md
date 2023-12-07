@@ -72,7 +72,7 @@ Version of kustomize to install
 #### Default value
 
 ```YAML
-kustomize_core_version: 5.2.1
+kustomize_core_version: 5.3.0
 ```
 
 ### kustomize_install_path
