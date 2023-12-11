@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/rolehippie/kustomize/compare/v1.4.0...v1.5.0) (2023-12-11)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/kustomize to v5.3.0 ([9488aef](https://github.com/rolehippie/kustomize/commit/9488aef909a12782fcff81b8759102539efef4ac))
+
 ## [1.4.0](https://github.com/rolehippie/kustomize/compare/v1.3.0...v1.4.0) (2023-11-27)
 
 
