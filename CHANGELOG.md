@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/rolehippie/kustomize/compare/v1.5.0...v1.5.1) (2024-01-15)
+
+
+### Bugfixes
+
+* **deps:** update dependency viaduct-ai/kustomize-sops to v4.3.1 ([a63d93d](https://github.com/rolehippie/kustomize/commit/a63d93d4d5cfc908abef128f83aed3f39a94c758))
+
 ## [1.5.0](https://github.com/rolehippie/kustomize/compare/v1.4.0...v1.5.0) (2023-12-11)
 
 
