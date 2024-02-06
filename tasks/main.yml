@@ -1,6 +1,6 @@
 ---
 - name: Download kustomize release
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kustomize_core_download }}"
     dest: "{{ kustomize_install_path }}"
     include:
@@ -15,7 +15,7 @@
 - name: Download ksops release
   when:
     - kustomize_ksops_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kustomize_ksops_download }}"
     dest: "{{ kustomize_install_path }}"
     include:
@@ -30,7 +30,7 @@
 - name: Download khelm release
   when:
     - kustomize_khelm_enabled
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ kustomize_khelm_download }}"
     dest: "{{ kustomize_install_path }}/khelm"
     owner: root
