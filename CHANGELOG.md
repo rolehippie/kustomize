@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/kustomize/compare/v1.5.2...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* used full qualified collection names ([1c6567b](https://github.com/rolehippie/kustomize/commit/1c6567bb4c7247c11eb2cd0887aa6da9706a618b))
+
 ## [1.5.2](https://github.com/rolehippie/kustomize/compare/v1.5.1...v1.5.2) (2024-02-05)
 
 
