@@ -124,7 +124,7 @@ Version of khelm to install
 #### Default value
 
 ```YAML
-kustomize_khelm_version: 2.3.3
+kustomize_khelm_version: 2.3.4
 ```
 
 ### kustomize_ksops_arch
