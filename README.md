@@ -72,7 +72,7 @@ Version of kustomize to install
 #### Default value
 
 ```YAML
-kustomize_core_version: 5.4.2
+kustomize_core_version: 5.4.3
 ```
 
 ### kustomize_install_path
@@ -167,7 +167,7 @@ Version of ksops to install
 #### Default value
 
 ```YAML
-kustomize_ksops_version: 4.3.1
+kustomize_ksops_version: 4.3.2
 ```
 
 ## Discovered Tags
