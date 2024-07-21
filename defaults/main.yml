@@ -27,7 +27,7 @@ kustomize_khelm_enabled: True
 
 # @var kustomize_khelm_version:description: Version of khelm to install
 # renovate: datasource=github-releases depName=mgoltzsche/khelm
-kustomize_khelm_version: 2.3.4
+kustomize_khelm_version: 2.4.1
 
 # @var kustomize_khelm_arch:description: Architecture for khelm
 kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
