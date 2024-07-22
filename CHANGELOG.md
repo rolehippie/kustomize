@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/rolehippie/kustomize/compare/v2.1.3...v2.2.0) (2024-07-22)
+
+
+### Features
+
+* **deps:** update dependency mgoltzsche/khelm to v2.4.1 ([6f21d90](https://github.com/rolehippie/kustomize/commit/6f21d90c346b48e87989ca06be948fda3e8f1d85))
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes-sigs/kustomize to v5.4.3 ([edf894d](https://github.com/rolehippie/kustomize/commit/edf894d6f4e10e184f70f6455c38c328142dbc2c))
+
 ## [2.1.3](https://github.com/rolehippie/kustomize/compare/v2.1.2...v2.1.3) (2024-07-01)
 
 
