@@ -1,7 +1,7 @@
 ---
 # @var kustomize_core_version:description: Version of kustomize to install
 # renovate: datasource=github-releases depName=kubernetes-sigs/kustomize
-kustomize_core_version: 5.4.3
+kustomize_core_version: 5.5.0
 
 # @var kustomize_core_arch:description: Architecture for kustomize
 kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
