@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/kustomize/compare/v2.4.1...v2.5.0) (2025-04-14)
+
+
+### Features
+
+* **deps:** update dependency mgoltzsche/khelm to v2.5.0 ([#57](https://github.com/rolehippie/kustomize/issues/57)) ([13d891d](https://github.com/rolehippie/kustomize/commit/13d891d4b99ee8bb9460d3c20a31f9a42e99db65))
+
 ## [2.4.1](https://github.com/rolehippie/kustomize/compare/v2.4.0...v2.4.1) (2025-02-03)
 
 
