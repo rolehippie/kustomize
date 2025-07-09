@@ -1,4 +1,4 @@
-# kustomize
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/kustomize)
 [![General Workflow](https://github.com/rolehippie/kustomize/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/kustomize/actions/workflows/general.yml)
@@ -60,9 +60,10 @@ URL to download kustomize from
 #### Default value
 
 ```YAML
-kustomize_core_download: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{
-  kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ kustomize_core_arch
-  }}.tar.gz
+kustomize_core_download: 
+  https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{
+  kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ 
+  kustomize_core_arch }}.tar.gz
 ```
 
 ### kustomize_core_version
@@ -103,7 +104,8 @@ URL to download khelm from
 #### Default value
 
 ```YAML
-kustomize_khelm_download: https://github.com/mgoltzsche/khelm/releases/download/v{{
+kustomize_khelm_download: 
+  https://github.com/mgoltzsche/khelm/releases/download/v{{ 
   kustomize_khelm_version }}/khelm-linux-{{ kustomize_khelm_arch }}
 ```
 
@@ -124,7 +126,7 @@ Version of khelm to install
 #### Default value
 
 ```YAML
-kustomize_khelm_version: 2.5.0
+kustomize_khelm_version: 2.6.0
 ```
 
 ### kustomize_ksops_arch
@@ -145,9 +147,10 @@ URL to download ksops from
 #### Default value
 
 ```YAML
-kustomize_ksops_download: https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{
-  kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ kustomize_ksops_arch
-  }}.tar.gz
+kustomize_ksops_download: 
+  https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{ 
+  kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ 
+  kustomize_ksops_arch }}.tar.gz
 ```
 
 ### kustomize_ksops_enabled
@@ -173,7 +176,6 @@ kustomize_ksops_version: 4.3.3
 ## Discovered Tags
 
 **_kustomize_**
-
 
 ## Dependencies
 
