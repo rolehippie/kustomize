@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.1](https://github.com/rolehippie/kustomize/compare/v2.7.0...v2.7.1) (2025-07-28)
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes-sigs/kustomize to v5.7.1 ([#60](https://github.com/rolehippie/kustomize/issues/60)) ([5885178](https://github.com/rolehippie/kustomize/commit/5885178b57391cbe4e70a46d6f75793213a52839))
+
 ## [2.7.0](https://github.com/rolehippie/kustomize/compare/v2.6.0...v2.7.0) (2025-07-14)
 
 
