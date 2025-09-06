@@ -170,7 +170,7 @@ Version of ksops to install
 #### Default value
 
 ```YAML
-kustomize_ksops_version: 4.3.3
+kustomize_ksops_version: 4.4.0
 ```
 
 ## Discovered Tags
