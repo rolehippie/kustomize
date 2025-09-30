@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.0](https://github.com/rolehippie/kustomize/compare/v2.8.0...v2.9.0) (2025-09-30)
+
+
+### Features
+
+* apply new repo structure and update linting and integrate noble ([c5b4a96](https://github.com/rolehippie/kustomize/commit/c5b4a9640cb416c28f4436289496ef8a345373c3))
+
 ## [2.8.0](https://github.com/rolehippie/kustomize/compare/v2.7.1...v2.8.0) (2025-09-08)
 
 
