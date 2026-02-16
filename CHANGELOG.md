@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.11.1](https://github.com/rolehippie/kustomize/compare/v2.11.0...v2.11.1) (2026-02-16)
+
+### Dependencies
+
+* **patch:** update dependency kubernetes-sigs/kustomize to v5.8.1 ([#90](https://github.com/rolehippie/kustomize/issues/90)) ([10d0501](https://github.com/rolehippie/kustomize/commit/10d05012624202f10c3a46178569477f78fbd6e9))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([4044a28](https://github.com/rolehippie/kustomize/commit/4044a287013c5e7972f34c176dd62fd3bc9ce79f))
+* **flake:** updated lockfile [skip ci] ([420a751](https://github.com/rolehippie/kustomize/commit/420a751b67e70351a133b204dd4842adf15b64c4))
+* **flake:** updated lockfile [skip ci] ([cd698e9](https://github.com/rolehippie/kustomize/commit/cd698e95a8c3373de4eec37c464b06438db6b2e8))
+* **flake:** updated lockfile [skip ci] ([f49b0e4](https://github.com/rolehippie/kustomize/commit/f49b0e4df8b7cde0f3236596508e7547a57b8492))
+* **flake:** updated lockfile [skip ci] ([639b008](https://github.com/rolehippie/kustomize/commit/639b008e356c926d4689d8375b7d8be3552b00e3))
+* **flake:** updated lockfile [skip ci] ([c625fcb](https://github.com/rolehippie/kustomize/commit/c625fcb5c40669e41bc767ee59c9ea94669af4e6))
+* **flake:** updated lockfile [skip ci] ([5e9ef5d](https://github.com/rolehippie/kustomize/commit/5e9ef5dcf4c81bb1b3942b002ab0c4a45b968437))
+* **flake:** updated lockfile [skip ci] ([276ba19](https://github.com/rolehippie/kustomize/commit/276ba19f988cecc846623f8132802df8ec1de9ea))
+* **flake:** updated lockfile [skip ci] ([1e4b6c5](https://github.com/rolehippie/kustomize/commit/1e4b6c5f88ed6a5fe4d8242380189458032c89da))
+
 ## [2.11.0](https://github.com/rolehippie/kustomize/compare/v2.10.0...v2.11.0) (2025-12-15)
 
 
