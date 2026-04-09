@@ -49,8 +49,7 @@ Architecture for kustomize
 #### Default value
 
 ```YAML
-kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
-  == 'arm64' else 'amd64' }}"
+kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
 ```
 
 ### kustomize_core_download
@@ -60,10 +59,7 @@ URL to download kustomize from
 #### Default value
 
 ```YAML
-kustomize_core_download: 
-  https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{
-  kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ 
-  kustomize_core_arch }}.tar.gz
+kustomize_core_download: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{ kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ kustomize_core_arch }}.tar.gz
 ```
 
 ### kustomize_core_version
@@ -93,8 +89,7 @@ Architecture for khelm
 #### Default value
 
 ```YAML
-kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
-  == 'arm64' else 'amd64' }}"
+kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
 ```
 
 ### kustomize_khelm_download
@@ -104,9 +99,7 @@ URL to download khelm from
 #### Default value
 
 ```YAML
-kustomize_khelm_download: 
-  https://github.com/mgoltzsche/khelm/releases/download/v{{ 
-  kustomize_khelm_version }}/khelm-linux-{{ kustomize_khelm_arch }}
+kustomize_khelm_download: https://github.com/mgoltzsche/khelm/releases/download/v{{ kustomize_khelm_version }}/khelm-linux-{{ kustomize_khelm_arch }}
 ```
 
 ### kustomize_khelm_enabled
@@ -136,8 +129,7 @@ Architecture for ksops
 #### Default value
 
 ```YAML
-kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
-  == 'arm64' else 'x86_64' }}"
+kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'x86_64' }}"
 ```
 
 ### kustomize_ksops_download
@@ -147,10 +139,7 @@ URL to download ksops from
 #### Default value
 
 ```YAML
-kustomize_ksops_download: 
-  https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{ 
-  kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ 
-  kustomize_ksops_arch }}.tar.gz
+kustomize_ksops_download: https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{ kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ kustomize_ksops_arch }}.tar.gz
 ```
 
 ### kustomize_ksops_enabled
