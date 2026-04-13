@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.12.0](https://github.com/rolehippie/kustomize/compare/v2.11.1...v2.12.0) (2026-04-13)
+
+### Dependencies
+
+* **minor:** update dependency viaduct-ai/kustomize-sops to v4.5.0 ([#95](https://github.com/rolehippie/kustomize/issues/95)) ([77762dc](https://github.com/rolehippie/kustomize/commit/77762dc010ed3b8e491ae03f7932a2448046a892))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([15bffc9](https://github.com/rolehippie/kustomize/commit/15bffc9b46f22a85dfdb98e076d0f5f98832202f))
+* **flake:** updated lockfile [skip ci] ([b55ae8d](https://github.com/rolehippie/kustomize/commit/b55ae8d42a8d37a3f0d8584264ce9ee8ec8aa29b))
+* **flake:** updated lockfile [skip ci] ([d4b9010](https://github.com/rolehippie/kustomize/commit/d4b9010c9bce7fa27121d32ce84538de09ccc819))
+* **flake:** updated lockfile [skip ci] ([307e02d](https://github.com/rolehippie/kustomize/commit/307e02dda80a89ac12b43fa4860de6e96d9ec358))
+* **flake:** updated lockfile [skip ci] ([659afe4](https://github.com/rolehippie/kustomize/commit/659afe4d3136d5d7e900af705caa88ad5e427f4f))
+* **flake:** updated lockfile [skip ci] ([f360586](https://github.com/rolehippie/kustomize/commit/f360586c2d88c36675cac1b303e176f1afb816d6))
+* **flake:** updated lockfile [skip ci] ([2252d10](https://github.com/rolehippie/kustomize/commit/2252d103da9ca58ba91b5692a585607f0511c31e))
+* **flake:** updated lockfile [skip ci] ([0338e2c](https://github.com/rolehippie/kustomize/commit/0338e2c571002690734744138a1e77423861ff29))
+
 ## [2.11.1](https://github.com/rolehippie/kustomize/compare/v2.11.0...v2.11.1) (2026-02-16)
 
 ### Dependencies
