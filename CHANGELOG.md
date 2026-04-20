@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.12.1](https://github.com/rolehippie/kustomize/compare/v2.12.0...v2.12.1) (2026-04-20)
+
+### Dependencies
+
+* **patch:** update dependency viaduct-ai/kustomize-sops to v4.5.1 ([#96](https://github.com/rolehippie/kustomize/issues/96)) ([49e8232](https://github.com/rolehippie/kustomize/commit/49e823225f0a21e9fd5a19564e03ad0910197424))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([adbcdae](https://github.com/rolehippie/kustomize/commit/adbcdaeb97f32e5cb5916d675ca9c3dbc983b088))
+
 ## [2.12.0](https://github.com/rolehippie/kustomize/compare/v2.11.1...v2.12.0) (2026-04-13)
 
 ### Dependencies
