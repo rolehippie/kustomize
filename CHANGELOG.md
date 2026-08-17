@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.16.0](https://github.com/rolehippie/kustomize/compare/v2.15.0...v2.16.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#107](https://github.com/rolehippie/kustomize/issues/107)) ([a95cb9a](https://github.com/rolehippie/kustomize/commit/a95cb9a34e390343df72358de7be0993675ff1be))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#104](https://github.com/rolehippie/kustomize/issues/104)) ([c50cea8](https://github.com/rolehippie/kustomize/commit/c50cea83216442129fe3cfa11ce4e37c95a199a8))
+* **patch:** update dependency pre-commit to v4.6.2 ([#105](https://github.com/rolehippie/kustomize/issues/105)) ([b2360f6](https://github.com/rolehippie/kustomize/commit/b2360f65fbaa9feb3d9609486a5ef9693a05d53c))
+
 ## [2.15.0](https://github.com/rolehippie/kustomize/compare/v2.14.0...v2.15.0) (2026-08-10)
 
 ### Dependencies
