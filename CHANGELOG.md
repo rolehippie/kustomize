@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.17.0](https://github.com/rolehippie/kustomize/compare/v2.16.0...v2.17.0) (2026-08-24)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#106](https://github.com/rolehippie/kustomize/issues/106)) ([aea3e7b](https://github.com/rolehippie/kustomize/commit/aea3e7b72dac4ac4d240fc5df5311bc4c46d9cb8))
+
 ## [2.16.0](https://github.com/rolehippie/kustomize/compare/v2.15.0...v2.16.0) (2026-08-17)
 
 ### Dependencies
