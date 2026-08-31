@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.17.1](https://github.com/rolehippie/kustomize/compare/v2.17.0...v2.17.1) (2026-08-31)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#108](https://github.com/rolehippie/kustomize/issues/108)) ([53ccf8d](https://github.com/rolehippie/kustomize/commit/53ccf8d39fe77b0347617530b8db9555bf5a6f14))
+
 ## [2.17.0](https://github.com/rolehippie/kustomize/compare/v2.16.0...v2.17.0) (2026-08-24)
 
 ### Dependencies
