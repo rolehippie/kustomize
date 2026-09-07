@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.18.0](https://github.com/rolehippie/kustomize/compare/v2.17.1...v2.18.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([0c742fe](https://github.com/rolehippie/kustomize/commit/0c742fe0e4e88c15dc09a4e663344cc226f9cc2b))
+* use new required facts as attributes ([5aa9636](https://github.com/rolehippie/kustomize/commit/5aa96367b104386415926c1759c5a9dbe9d7652b))
+
 ## [2.17.1](https://github.com/rolehippie/kustomize/compare/v2.17.0...v2.17.1) (2026-08-31)
 
 ### Dependencies
