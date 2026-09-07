@@ -49,7 +49,7 @@ Architecture for kustomize
 #### Default value
 
 ```YAML
-kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kustomize_core_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kustomize_core_download
@@ -89,7 +89,7 @@ Architecture for khelm
 #### Default value
 
 ```YAML
-kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kustomize_khelm_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kustomize_khelm_download
@@ -129,7 +129,7 @@ Architecture for ksops
 #### Default value
 
 ```YAML
-kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'x86_64' }}"
+kustomize_ksops_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'x86_64' }}"
 ```
 
 ### kustomize_ksops_download

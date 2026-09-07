@@ -4,7 +4,7 @@
 kustomize_core_version: 5.8.1
 
 # @var kustomize_core_arch:description: Architecture for kustomize
-kustomize_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kustomize_core_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 
 # @var kustomize_core_download:description: URL to download kustomize from
 kustomize_core_download: "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{ kustomize_core_version }}/kustomize_v{{ kustomize_core_version }}_linux_{{ kustomize_core_arch }}.tar.gz"
@@ -17,7 +17,7 @@ kustomize_ksops_enabled: true
 kustomize_ksops_version: 4.5.1
 
 # @var kustomize_ksops_arch:description: Architecture for ksops
-kustomize_ksops_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'x86_64' }}"
+kustomize_ksops_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'x86_64' }}"
 
 # @var kustomize_ksops_download:description: URL to download ksops from
 kustomize_ksops_download: "https://github.com/viaduct-ai/kustomize-sops/releases/download/v{{ kustomize_ksops_version }}/ksops_{{ kustomize_ksops_version }}_Linux_{{ kustomize_ksops_arch }}.tar.gz"
@@ -30,7 +30,7 @@ kustomize_khelm_enabled: true
 kustomize_khelm_version: 2.8.0
 
 # @var kustomize_khelm_arch:description: Architecture for khelm
-kustomize_khelm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kustomize_khelm_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 
 # @var kustomize_khelm_download:description: URL to download khelm from
 kustomize_khelm_download: "https://github.com/mgoltzsche/khelm/releases/download/v{{ kustomize_khelm_version }}/khelm-linux-{{ kustomize_khelm_arch }}"
