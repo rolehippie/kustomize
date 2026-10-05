@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.18.1](https://github.com/rolehippie/kustomize/compare/v2.18.0...v2.18.1) (2026-10-05)
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#109](https://github.com/rolehippie/kustomize/issues/109)) ([35d2eb0](https://github.com/rolehippie/kustomize/commit/35d2eb07c4f6616cc0d9ae080ab8c6dc97e49db4))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#111](https://github.com/rolehippie/kustomize/issues/111)) ([6d6fd79](https://github.com/rolehippie/kustomize/commit/6d6fd79b518a3419a533d99cb73cf33c4e09cfb4))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#112](https://github.com/rolehippie/kustomize/issues/112)) ([3c3dcbf](https://github.com/rolehippie/kustomize/commit/3c3dcbf0d2659a4168ec3c5e34cf1e4f9b89a495))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#113](https://github.com/rolehippie/kustomize/issues/113)) ([134a6e1](https://github.com/rolehippie/kustomize/commit/134a6e1be74ca6ae6b5c330830e425000c47f56b))
+* **mise:** update dependency prek to v0.5.3 ([#110](https://github.com/rolehippie/kustomize/issues/110)) ([8c53667](https://github.com/rolehippie/kustomize/commit/8c536677a5717d447935911a5b8194f11a1ccd68))
+* **mise:** update dependency prek to v0.5.4 ([#114](https://github.com/rolehippie/kustomize/issues/114)) ([d0fb46f](https://github.com/rolehippie/kustomize/commit/d0fb46f080395ee3c036b4c1d938abc0fd680e46))
+* **mise:** update dependency prek to v0.5.5 ([#117](https://github.com/rolehippie/kustomize/issues/117)) ([8c0e9d2](https://github.com/rolehippie/kustomize/commit/8c0e9d231ccd8fe812dbc2bf913606c49ac4f32b))
+* **patch:** update dependency kubernetes-sigs/kustomize to v5.8.2 ([#116](https://github.com/rolehippie/kustomize/issues/116)) ([d2d87e2](https://github.com/rolehippie/kustomize/commit/d2d87e2cd9a338e3dde825920347b12f1a50bee0))
+
 ## [2.18.0](https://github.com/rolehippie/kustomize/compare/v2.17.1...v2.18.0) (2026-09-07)
 
 ### Features
