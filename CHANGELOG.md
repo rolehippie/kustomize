@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.18.2](https://github.com/rolehippie/kustomize/compare/v2.18.1...v2.18.2) (2026-10-12)
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#118](https://github.com/rolehippie/kustomize/issues/118)) ([a60fe6b](https://github.com/rolehippie/kustomize/commit/a60fe6b808f2392f2a847701dfe741ae1662aac4))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.3 ([#119](https://github.com/rolehippie/kustomize/issues/119)) ([2ba2556](https://github.com/rolehippie/kustomize/commit/2ba2556bd5f02b330facc130b8a732e81cd85311))
+* **mise:** update dependency pipx:molecule to v26.10.0 ([#122](https://github.com/rolehippie/kustomize/issues/122)) ([fc94a9f](https://github.com/rolehippie/kustomize/commit/fc94a9f1c2cc56f1d28c11a3be001441233266a8))
+* **patch:** update dependency kubernetes-sigs/kustomize to v5.8.3 ([#120](https://github.com/rolehippie/kustomize/issues/120)) ([edc5d80](https://github.com/rolehippie/kustomize/commit/edc5d80e367b9ab2cf931739de62eaf673d18d76))
+
 ## [2.18.1](https://github.com/rolehippie/kustomize/compare/v2.18.0...v2.18.1) (2026-10-05)
 
 ### Dependencies
