@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.0.1](https://github.com/rolehippie/kustomize/compare/v3.0.0...v3.0.1) (2026-11-16)
+
+* automated readme update [skip ci] ([37ff18b](https://github.com/rolehippie/kustomize/commit/37ff18b3fa27cbee05a9e1e0092f54d9bff01a55))
+* automated release update [skip ci] ([17a6faa](https://github.com/rolehippie/kustomize/commit/17a6faaff9d6b3b491db7151d5c59c1ed5d64939))
+* automated release update [skip ci] ([85ffa7b](https://github.com/rolehippie/kustomize/commit/85ffa7bc6916bb6f8ddc06e2ff87fc474bf4d301))
+* automated release update [skip ci] ([f359fa8](https://github.com/rolehippie/kustomize/commit/f359fa870f0018edc4f666a35ef110cd89192145))
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-core to v2.22.0 ([#130](https://github.com/rolehippie/kustomize/issues/130)) ([924677a](https://github.com/rolehippie/kustomize/commit/924677ad810af3bd308f3e07fb29e901d4dce7ec))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.4 ([#134](https://github.com/rolehippie/kustomize/issues/134)) ([458acf7](https://github.com/rolehippie/kustomize/commit/458acf7a7aa7ae34a6962b3b9156915f48e4b34a))
+* **mise:** update dependency pipx:ansible-lint to v26.11.0 ([#132](https://github.com/rolehippie/kustomize/issues/132)) ([69861db](https://github.com/rolehippie/kustomize/commit/69861db67530749a8d922a35f4a28b90cc5cde78))
+* **mise:** update dependency pipx:molecule to v26.11.0 ([#133](https://github.com/rolehippie/kustomize/issues/133)) ([e835e5c](https://github.com/rolehippie/kustomize/commit/e835e5ce64e9e9c6c8dd80d0ec4e9766093b2e1f))
+* **mise:** update dependency prek to v0.5.10 ([#131](https://github.com/rolehippie/kustomize/issues/131)) ([e2c024c](https://github.com/rolehippie/kustomize/commit/e2c024c93c358806aff6f29dd584d37f7742351a))
+* **mise:** update dependency prek to v0.5.11 ([#136](https://github.com/rolehippie/kustomize/issues/136)) ([c0ed213](https://github.com/rolehippie/kustomize/commit/c0ed21313e0deac120b3e5abf5d338393d746018))
+* **mise:** update dependency prek to v0.5.7 ([#127](https://github.com/rolehippie/kustomize/issues/127)) ([3d301ba](https://github.com/rolehippie/kustomize/commit/3d301ba85450cd453e33e2ff5a3a277976b4e8a4))
+* **mise:** update dependency prek to v0.5.9 ([#129](https://github.com/rolehippie/kustomize/issues/129)) ([8187d8a](https://github.com/rolehippie/kustomize/commit/8187d8a172a0f32ee685b6256d1440d165f91231))
+* **mise:** update node.js to v26 ([#128](https://github.com/rolehippie/kustomize/issues/128)) ([d71bd69](https://github.com/rolehippie/kustomize/commit/d71bd69ff17a83de7c422310c74ac0e06e88ffe7))
+* **patch:** update dependency mgoltzsche/khelm to v3.0.1 ([#135](https://github.com/rolehippie/kustomize/issues/135)) ([57c8179](https://github.com/rolehippie/kustomize/commit/57c8179220d784894e3ca14e12dc7201e6a87d2b))
+
 ## [3.0.0](https://github.com/rolehippie/kustomize/compare/v2.18.2...v3.0.0) (2026-10-19)
 
 ### Dependencies
